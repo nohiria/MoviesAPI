@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package dev.nohiria.movies;
+package dev.nohiria.movies.Entities;
 
 import java.util.List;
 import lombok.AllArgsConstructor;

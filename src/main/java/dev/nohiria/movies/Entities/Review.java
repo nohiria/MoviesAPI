@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package dev.nohiria.movies;
+package dev.nohiria.movies.Entities;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -21,4 +21,8 @@ import org.springframework.data.mongodb.core.mapping.Document;
 public class Review {
     private ObjectId id;
     private String body;
+
+    public Review(String body) {
+        this.body = body;
+    }
 }
